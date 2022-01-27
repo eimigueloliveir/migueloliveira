@@ -7,4 +7,9 @@ function typeWriter(elemento) {
     }
 
     const titulo = document.querySelector('.titulo');
-    typeWriter(titulo);
+    
+    setInterval(function(){
+        typeWriter(titulo);
+       
+      }, 5000);
+      
