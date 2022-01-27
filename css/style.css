@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nunito:wght@700&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap%27');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Roboto', sans-serif;
+}
+body {
+
+    background-color: #383838;
+    color: white;
+    text-align: center;
+    font-family:  'Roboto', sans-serif;
+
+
+
+}
+
+h1 {
+    margin-top: 20px;
+font-size: 42pt;
+
+
+}
+.icon{
+    margin-top: 20px;
+border-radius: 15%;
+height: 400px;
+box-shadow: 10px 10px rgb(0, 0, 0, 0.25);
+margin-bottom: 20px;
+
+}
+.redes img  {
+    width: 140px;
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    height: 40px;
+    box-shadow: 6px 6px rgb(0, 0, 0, 0.25);
+}
