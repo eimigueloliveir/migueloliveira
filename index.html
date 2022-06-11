@@ -4,16 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/analytics.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
     <title>Miguel Oliveira</title>
 </head>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-NCTBQK5FM2');
-  </script>
+
 <body> 
     <div class="workspace">
         <img src="/img/avatar.jpg" class="avatar" width="200" height="200" alt="profile picture" />
@@ -27,7 +23,7 @@
     {
         <span class="token-keyword">public class</span> <span class="token-class">Main</span>
         {
-            <span class="token-keyword">Programmer</span> Miguel_Oliveira = <span class="token-keyword">new</span>()
+            <span class="token-keyword">Programmer</span> Miguel = <span class="token-keyword">new</span>()
             {
                 Name = <span class="token-literal">"Miguel Oliveira"</span>,
                 FavoriteLanguage = <span class="token-enum">Language</span>.CSharp,
@@ -41,13 +37,21 @@
                     <a href="https://www.linkedin.com/in/miguel-oliveira-129549225/" target="_blank" class="token-signature"><img src="/img/redes-sociais/linkedin.png" alt="Linkedin" class="emoji" />Linkedin</a>
                 }
             };
-            <span class="token-keyword">public</span> <span class="token-keyword">static</span> <span class="token-keyword">void</span> Main()
+            <span class="token-keyword">public</span> <span class="token-keyword">static</span> <span class="token-keyword">void</span><span class="token-method"> Main</span>()
             {
-                <span class="token-class">Console</span>.WriteLine(<span class="token-literal">"I'm Miguel"</span>);
+                <span class="token-class">Console</span>.<span class="token-method">WriteLine</span>(<span class="token-signature">Miguel</span>);
             }
         }
     }
         </pre>
     </div>
+    <div class="console">
+        <label>ﾠ></label><input  id="enter" type="text">
+        <div id="console-text">
+            
+        </div>
+    </div>
 </body>
+<script type="text/javascript" src="js/console.js"></script>
+<script type="text/javascript" src="js/escrever.js"></script>
 </html>

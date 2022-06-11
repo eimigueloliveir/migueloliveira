@@ -68,3 +68,29 @@ pre {
     font-family: 'CaskaydiaCove';
     color: white;
 }
+.console{
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    min-height: 300px;
+}
+.console input{
+    padding: 10px;
+    width: 300px;
+    background-color: black;
+    outline: 0;
+    border: none;
+    color: #6af352;
+}
+.console-text{
+    color: #6af352;
+}
+#console-tex{
+    color: #6af352;
+}
+.console-text span{
+    padding: 10px;
+}
+.token-method {
+    color: #f3dd95;
+}
