@@ -5,6 +5,7 @@ const inputEle = document.getElementById('enter');
     if (key == 13) { 
       var texto = inputEle.value;
       texto = texto.trim();
+      texto = texto.toLowerCase();
       if(texto == "dotnet"){
       consoleEle.innerHTML += '<br><span id="console-tex">' + "<br>Options:<br>Usage: dotnet run<br>Usage: dotnet --version" + '</span><br>';
       }
