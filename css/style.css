@@ -5,6 +5,7 @@
 
 body {
     background-image: url('/img/bg.webp');
+    background-attachment: fixed;
     font-family: 'CaskaydiaCove';
     color: white;
 }
